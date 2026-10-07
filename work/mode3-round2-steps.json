@@ -1,0 +1,9 @@
+[
+  {"action":"click","x":600,"y":416},
+  {"action":"type","text":"{HOME}{DOWN}{DOWN}{ENTER}"},
+  {"action":"click","x":800,"y":832},
+  {"action":"text","text":"stardust"},
+  {"action":"click","x":135,"y":1267},
+  {"action":"click","x":373,"y":1267},
+  {"action":"click","x":1780,"y":416}
+]

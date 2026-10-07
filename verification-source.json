@@ -1,0 +1,43 @@
+{
+  "extraction": {
+    "title": "城市阅读空间开放",
+    "characters": 169
+  },
+  "storage_and_batch_undo": "passed",
+  "language_roundtrip": "passed",
+  "twisted_three_rounds_history_language": "passed",
+  "direction_lineage_partial_restore_outcome": "passed",
+  "final_outcome": "restoration",
+  "twisted_scores": {
+    "distortion": 25.0,
+    "coherence": 70.95,
+    "regrowth": 17.74
+  },
+  "four_targets_diversity_suggestion_history": "passed",
+  "reframe_pure_editorial_three_rounds_language_restore_isolation": {
+    "pure": {
+      "rounds": 3,
+      "moved": 9,
+      "removed": 0,
+      "sections": 3,
+      "outcome": "context"
+    },
+    "editorial": {
+      "rounds": 3,
+      "moved": 3,
+      "removed": 3,
+      "sections": 3,
+      "outcome": "selective"
+    }
+  },
+  "regrowth_repeated_words_test_reveal_reset": "passed",
+  "delete_all_cancel_confirm": "passed",
+  "live_fetch_to_editor_and_challenge": "passed",
+  "live_fetch": {
+    "url": "https://www.python.org/doc/essays/blurb/",
+    "title": "What is Python? Executive Summary",
+    "characters": 1696
+  },
+  "ui_edit_preview_apply_undo": "passed",
+  "ok": true
+}

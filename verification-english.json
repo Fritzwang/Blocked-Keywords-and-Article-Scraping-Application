@@ -1,0 +1,14 @@
+{
+  "extraction": {
+    "title": "城市阅读空间开放",
+    "characters": 169
+  },
+  "storage_and_batch_undo": "passed",
+  "live_fetch": {
+    "url": "https://www.python.org/doc/essays/blurb/",
+    "title": "What is Python? Executive Summary",
+    "characters": 1696,
+    "sample": "What is Python? Executive Summary\n\nPython is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typ"
+  },
+  "ok": true
+}

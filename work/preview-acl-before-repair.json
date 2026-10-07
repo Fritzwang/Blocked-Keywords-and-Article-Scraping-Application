@@ -1,0 +1,42 @@
+﻿[
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-3_p5k4sn",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:P(A;OICI;FA;;;OW)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-3_p5k4sn\\articles.db",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-3_p5k4sn\\articles.db-shm",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-3_p5k4sn\\articles.db-wal",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-3_p5k4sn\\cipher_game.db",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-csgcd864",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:P(A;OICI;FA;;;OW)(A;OICI;FA;;;SY)(A;OICI;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-csgcd864\\articles.db",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-csgcd864\\articles.db-shm",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-csgcd864\\articles.db-wal",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    },
+    {
+        "Path":  "D:\\33工程部\\codex_project\\work\\test-temp\\cipher-preview-csgcd864\\cipher_game.db",
+        "Sddl":  "O:S-1-5-21-3246680134-708800421-1438010530-1003G:S-1-5-21-3246680134-708800421-1438010530-513D:(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;FA;;;OW)"
+    }
+]

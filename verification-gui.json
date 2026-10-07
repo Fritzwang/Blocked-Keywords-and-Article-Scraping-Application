@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-01",
+  "timezone": "Australia/Sydney",
+  "executable": "D:\\codex_project\\网页摘录.exe",
+  "sha256": "D5520F654D6FD519B6FAC434AF9DF37BD1E2CF8E27FBEC0004EC1E18D2B91F1B",
+  "method": "Windows Computer Use clicks, typing, and screenshot inspection",
+  "source_gui": {
+    "path": ["technology", "surreal", "restore"],
+    "lineage": "Python -> network -> mermaid -> Python",
+    "other_mutation_preserved": "interpreted -> robot",
+    "words_mutated": 3,
+    "words_restored": 1,
+    "distortion": 9.09,
+    "coherence": 84.94,
+    "regrowth": 7.72,
+    "outcome": "Restoration",
+    "language_preserved_inputs_direction_and_restore_checkbox": true
+  },
+  "final_exe_gui": {
+    "started_from_final_path": true,
+    "direction_and_regrow_back_visible": true,
+    "restore_options_original_lineage_correct": true,
+    "path": ["technology", "surreal", "human"],
+    "words_mutated": 6,
+    "words_restored": 0,
+    "distortion": 36.36,
+    "coherence": 86.79,
+    "regrowth": 31.56,
+    "outcome": "Redirected Growth",
+    "zh_and_en_results_inspected": true,
+    "original_and_final_story_visible": true,
+    "history_original_and_three_generations_inspected": true,
+    "new_mutation_resets_original_and_direction": true,
+    "editor_story_unchanged": true,
+    "fixed_masks_test_and_reveal_inspected": true,
+    "player_recovery_after_test_and_reveal": "1/5",
+    "revealed_after_confirmation": 4,
+    "document_restoration_after_reveal": 100,
+    "article_context_menu_title_confirmation_and_cancel_inspected": true,
+    "batch_replace_english_window_inspected": true,
+    "temporary_fixture_cleaned": true,
+    "existing_articles": 2,
+    "existing_article_hashes_unchanged": true,
+    "application_error_log_empty": true,
+    "closed_normally": true
+  },
+  "coverage_limits": [
+    "Confirmed deletion, batch preview/apply/undo and packaged partial restore were verified by automated Tk tests and packaged diagnostics.",
+    "Manual clicks did not confirm deletion of user articles.",
+    "Existing main editor and batch replacement footer can extend beyond the current display under Windows scaling; recorded without expanding UI scope.",
+    "Wild and Fragmented outcomes are covered by automated tests; actual clicked games produced Restoration and Redirected Growth."
+  ]
+}

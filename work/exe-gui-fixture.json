@@ -1,0 +1,10 @@
+{
+  "id": "262e7bcf09434b75ba801593d75efb94",
+  "title": "GUI smoke test — real article excerpt",
+  "body": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.",
+  "baseline": {
+    "a71dfb62d55241ef94ce4fc4bb422d98": "1b26ee68c687d6975c09e52f14c2e4c418e8fdd479ef3358580b7fc8b0d72c2b",
+    "e96a40fda2bb46508607d33439c18df0": "7f40e423f4803b7bf7686dfebf4ef0851b5271d25c0481e98f6a27e01ab28625"
+  },
+  "cleaned": true
+}

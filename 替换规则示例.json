@@ -1,0 +1,14 @@
+[
+  {
+    "find": "旧名称",
+    "replacement": "新名称",
+    "scope": "both",
+    "case_sensitive": true
+  },
+  {
+    "find": "需要删除的文字",
+    "replacement": "",
+    "scope": "body",
+    "case_sensitive": true
+  }
+]

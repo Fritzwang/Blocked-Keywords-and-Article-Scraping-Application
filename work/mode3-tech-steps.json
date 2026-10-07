@@ -1,0 +1,4 @@
+[
+  {"action":"click","x":600,"y":416},
+  {"action":"type","text":"{HOME}{DOWN}{ENTER}"}
+]

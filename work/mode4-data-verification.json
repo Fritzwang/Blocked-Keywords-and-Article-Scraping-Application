@@ -1,0 +1,12 @@
+{
+  "mode4_fixture_cleaned": true,
+  "four_existing_rows_unchanged_after_mode4": true,
+  "old_fixture_cleaned": true,
+  "remaining_rows": 3,
+  "all_remaining_rows_unchanged": true,
+  "fingerprints": {
+    "b4ad2365f01e437ca82f26ce19d40b38": "62988d1c7a40d8d84cda69fdafb847c49a23efb26ed39370f397809908f85c63",
+    "a71dfb62d55241ef94ce4fc4bb422d98": "1b26ee68c687d6975c09e52f14c2e4c418e8fdd479ef3358580b7fc8b0d72c2b",
+    "e96a40fda2bb46508607d33439c18df0": "7f40e423f4803b7bf7686dfebf4ef0851b5271d25c0481e98f6a27e01ab28625"
+  }
+}

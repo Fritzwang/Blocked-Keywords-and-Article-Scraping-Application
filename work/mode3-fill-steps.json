@@ -1,0 +1,14 @@
+[
+  {"action":"type","text":"{ESC}"},
+  {"action":"click","x":740,"y":430},
+  {"action":"type","text":"^a"},
+  {"action":"text","text":"arguing with pigeons"},
+  {"action":"click","x":740,"y":550},
+  {"action":"text","text":"a haunted microwave"},
+  {"action":"click","x":740,"y":675},
+  {"action":"text","text":"seventeen rubber ducks"},
+  {"action":"click","x":740,"y":798},
+  {"action":"text","text":"three suspicious ducks"},
+  {"action":"click","x":740,"y":918},
+  {"action":"text","text":"suspiciously sparkly"}
+]

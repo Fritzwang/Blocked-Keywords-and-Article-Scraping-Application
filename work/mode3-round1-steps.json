@@ -1,0 +1,8 @@
+[
+  {"action":"click","x":800,"y":910},
+  {"action":"text","text":"automation"},
+  {"action":"click","x":135,"y":1267},
+  {"action":"click","x":373,"y":1267},
+  {"action":"click","x":600,"y":416},
+  {"action":"type","text":"{END}{ENTER}"}
+]

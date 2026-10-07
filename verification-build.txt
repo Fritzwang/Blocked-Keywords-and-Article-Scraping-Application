@@ -1,0 +1,141 @@
+181 INFO: PyInstaller: 6.16.0, contrib hooks: 2026.7
+183 INFO: Python: 3.12.14
+243 INFO: Platform: Windows-11-10.0.26200-SP0
+243 INFO: Python environment: D:\codex_project\.venv
+244 INFO: wrote D:\codex_project\网页摘录.spec
+248 INFO: Removing temporary files and cleaning cache in D:\codex_project\build\pyinstaller-cache\pyinstaller
+639 INFO: Module search paths (PYTHONPATH):
+['D:\\codex_project',
+ 'C:\\Users\\taisong '
+ 'wang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python312.zip',
+ 'C:\\Users\\taisong '
+ 'wang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\DLLs',
+ 'C:\\Users\\taisong '
+ 'wang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib',
+ 'C:\\Users\\taisong '
+ 'wang\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python',
+ 'D:\\codex_project\\.venv',
+ 'D:\\codex_project\\.venv\\Lib\\site-packages',
+ 'D:\\codex_project']
+1152 INFO: Appending 'datas' from .spec
+1232 INFO: checking Analysis
+1232 INFO: Building Analysis because Analysis-00.toc is non existent
+1232 INFO: Looking for Python shared library...
+1232 INFO: Using Python shared library: C:\Users\taisong wang\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python312.dll
+1232 INFO: Running Analysis Analysis-00.toc
+1232 INFO: Target bytecode optimization level: 0
+1232 INFO: Initializing module dependency graph...
+1233 INFO: Initializing module graph hook caches...
+1247 INFO: Analyzing modules for base_library.zip ...
+3120 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5022 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6100 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+6528 INFO: Caching module dependency graph...
+6576 INFO: Analyzing D:\codex_project\main.py
+6642 INFO: Processing standard module hook 'hook-urllib3.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6842 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+6843 INFO: SetuptoolsInfo: initializing cached setuptools info...
+7871 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+7958 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8175 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9193 INFO: Processing standard module hook 'hook-certifi.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9241 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9431 INFO: Processing standard module hook 'hook-lxml.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9945 INFO: Processing standard module hook 'hook-lxml.etree.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+10251 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10442 INFO: Processing standard module hook 'hook-babel.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+10886 INFO: Processing standard module hook 'hook-dateparser.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11058 INFO: Processing standard module hook 'hook-pytz.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11546 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11571 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11776 INFO: Processing standard module hook 'hook-regex.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11960 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+12030 INFO: Processing standard module hook 'hook-dateparser.utils.strptime.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13158 INFO: Processing standard module hook 'hook-dateutil.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13361 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+14048 INFO: Processing standard module hook 'hook-sqlite3.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+14527 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+14527 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+14840 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15202 INFO: Processing module hooks (post-graph stage)...
+15889 INFO: Processing standard module hook 'hook-lxml.isoschematron.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+16006 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16007 INFO: Processing standard module hook 'hook-lxml.objectify.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+16008 INFO: Processing standard module hook 'hook-tzdata.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+16785 INFO: Performing binary vs. data reclassification (3356 entries)
+17164 INFO: Looking for ctypes DLLs
+17180 INFO: Analyzing run-time hooks ...
+17183 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17186 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17189 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17191 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'D:\\codex_project\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+17299 INFO: Creating base_library.zip...
+17327 INFO: Looking for dynamic libraries
+18282 INFO: Extra DLL search directories (AddDllDirectory): []
+18282 INFO: Extra DLL search directories (PATH): []
+19075 INFO: Warnings written to D:\codex_project\build\网页摘录\warn-网页摘录.txt
+19137 INFO: Graph cross-reference written to D:\codex_project\build\网页摘录\xref-网页摘录.html
+19243 INFO: checking PYZ
+19243 INFO: Building PYZ because PYZ-00.toc is non existent
+19243 INFO: Building PYZ (ZlibArchive) D:\codex_project\build\网页摘录\PYZ-00.pyz
+19831 INFO: Building PYZ (ZlibArchive) D:\codex_project\build\网页摘录\PYZ-00.pyz completed successfully.
+19908 INFO: checking PKG
+19908 INFO: Building PKG because PKG-00.toc is non existent
+19908 INFO: Building PKG (CArchive) 网页摘录.pkg
+32682 INFO: Building PKG (CArchive) 网页摘录.pkg completed successfully.
+32736 INFO: Bootloader D:\codex_project\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+32736 INFO: checking EXE
+32737 INFO: Building EXE because EXE-00.toc is non existent
+32737 INFO: Building EXE from EXE-00.toc
+32742 INFO: Copying bootloader EXE to D:\codex_project\dist\网页摘录.exe
+32747 INFO: Copying icon to EXE
+32751 INFO: Copying 0 resources to EXE
+32751 INFO: Embedding manifest in EXE
+32754 INFO: Appending PKG archive to EXE
+32785 INFO: Fixing EXE headers
+33001 INFO: Building EXE from EXE-00.toc completed successfully.
+33052 INFO: Build complete! The results are available in: D:\codex_project\dist
+Standalone executable created.
+{
+  "extraction": {
+    "title": "城市阅读空间开放",
+    "characters": 169
+  },
+  "storage_and_batch_undo": "passed",
+  "language_roundtrip": "passed",
+  "twisted_three_rounds_history_language": "passed",
+  "direction_lineage_partial_restore_outcome": "passed",
+  "final_outcome": "restoration",
+  "twisted_scores": {
+    "distortion": 25.0,
+    "coherence": 70.95,
+    "regrowth": 17.74
+  },
+  "four_targets_diversity_suggestion_history": "passed",
+  "reframe_pure_editorial_three_rounds_language_restore_isolation": {
+    "pure": {
+      "rounds": 3,
+      "moved": 9,
+      "removed": 0,
+      "sections": 3,
+      "outcome": "context"
+    },
+    "editorial": {
+      "rounds": 3,
+      "moved": 3,
+      "removed": 3,
+      "sections": 3,
+      "outcome": "selective"
+    }
+  },
+  "regrowth_repeated_words_test_reveal_reset": "passed",
+  "delete_all_cancel_confirm": "passed",
+  "live_fetch_to_editor_and_challenge": "passed",
+  "live_fetch": {
+    "url": "https://www.news.cn/tech/20260929/4a6dd5725b0143c19ef4bdca7742f9d6/c.html",
+    "title": "“人造太阳”BEST核心部件批量交付",
+    "characters": 512
+  },
+  "ui_edit_preview_apply_undo": "passed",
+  "ok": true
+}

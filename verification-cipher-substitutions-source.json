@@ -1,0 +1,403 @@
+{
+  "extraction": {
+    "title": "城市阅读空间开放",
+    "characters": 169
+  },
+  "storage_and_batch_undo": "passed",
+  "language_roundtrip": "passed",
+  "twisted_three_rounds_history_language": "passed",
+  "direction_lineage_partial_restore_outcome": "passed",
+  "final_outcome": "restoration",
+  "twisted_scores": {
+    "distortion": 25.0,
+    "coherence": 70.95,
+    "regrowth": 17.74
+  },
+  "four_targets_diversity_suggestion_history": "passed",
+  "reframe_pure_editorial_three_rounds_language_restore_isolation": {
+    "pure": {
+      "rounds": 3,
+      "moved": 9,
+      "removed": 0,
+      "sections": 3,
+      "outcome": "context"
+    },
+    "editorial": {
+      "rounds": 3,
+      "moved": 3,
+      "removed": 3,
+      "sections": 3,
+      "outcome": "selective"
+    }
+  },
+  "blind_playthroughs": {
+    "source": "https://www.python.org/doc/essays/blurb/",
+    "title": "What is Python? Executive Summary",
+    "characters": 1696,
+    "A": {
+      "inputs": {
+        "45:109": "a haunted microwave",
+        "115:122": "suspiciously sparkly",
+        "306:334": "a haunted microwave",
+        "338:345": "arguing with pigeons",
+        "758:769": "three suspicious ducks"
+      },
+      "slots": [
+        {
+          "start": 45,
+          "end": 109,
+          "original": "an interpreted, object-oriented, high-level programming language",
+          "category": "object",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 115,
+          "end": 122,
+          "original": "dynamic",
+          "category": "description",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 306,
+          "end": 334,
+          "original": "a scripting or glue language",
+          "category": "object",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 338,
+          "end": 345,
+          "original": "connect",
+          "category": "action",
+          "form": "base",
+          "connector": " with",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 758,
+          "end": 769,
+          "original": "programmers",
+          "category": "group",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        }
+      ],
+      "seed": {
+        "number": 0,
+        "text": "What is Python? Executive Summary\n\nPython is a haunted microwave with suspiciously sparkly semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a haunted microwave to start arguing with pigeons with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, three suspicious ducks fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+        "direction": "seed",
+        "mutated": 5,
+        "restored": 0,
+        "mutations_applied": [
+          {
+            "start": 45,
+            "end": 109,
+            "original": "an interpreted, object-oriented, high-level programming language",
+            "before": "an interpreted, object-oriented, high-level programming language",
+            "after": "a haunted microwave"
+          },
+          {
+            "start": 115,
+            "end": 122,
+            "original": "dynamic",
+            "before": "dynamic",
+            "after": "suspiciously sparkly"
+          },
+          {
+            "start": 306,
+            "end": 334,
+            "original": "a scripting or glue language",
+            "before": "a scripting or glue language",
+            "after": "a haunted microwave"
+          },
+          {
+            "start": 338,
+            "end": 345,
+            "original": "connect",
+            "before": "connect",
+            "after": "start arguing with pigeons with"
+          },
+          {
+            "start": 758,
+            "end": 769,
+            "original": "programmers",
+            "before": "programmers",
+            "after": "three suspicious ducks"
+          }
+        ],
+        "restores_applied": []
+      },
+      "generations": [
+        {
+          "number": 1,
+          "text": "What is Python? Executive Summary\n\nPython is a haunted microwave with suspiciously sparkly semantics. Its sensor built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a haunted microwave to start arguing with pigeons with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, three suspicious ducks fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+          "direction": "technology",
+          "mutated": 1,
+          "restored": 0,
+          "mutations_applied": [
+            {
+              "start": 138,
+              "end": 148,
+              "original": "high-level",
+              "before": "high-level",
+              "after": "sensor"
+            }
+          ],
+          "restores_applied": []
+        },
+        {
+          "number": 2,
+          "text": "What is Python? Executive Summary\n\nPython is a haunted microwave with suspiciously sparkly semantics. Its sensor built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a haunted microwave to start arguing with pigeons with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the mirror of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, three suspicious ducks fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+          "direction": "surreal",
+          "mutated": 1,
+          "restored": 0,
+          "mutations_applied": [
+            {
+              "start": 463,
+              "end": 467,
+              "original": "cost",
+              "before": "cost",
+              "after": "mirror"
+            }
+          ],
+          "restores_applied": []
+        },
+        {
+          "number": 3,
+          "text": "What is Python? Executive Summary\n\nPython is an interpreted, object-oriented, high-level programming language with suspiciously sparkly semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a haunted microwave to start arguing with pigeons with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the mirror of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, three suspicious ducks fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+          "direction": "restore",
+          "mutated": 0,
+          "restored": 2,
+          "mutations_applied": [],
+          "restores_applied": [
+            {
+              "start": 45,
+              "end": 109,
+              "original": "an interpreted, object-oriented, high-level programming language",
+              "before": "a haunted microwave",
+              "after": "an interpreted, object-oriented, high-level programming language"
+            },
+            {
+              "start": 138,
+              "end": 148,
+              "original": "high-level",
+              "before": "sensor",
+              "after": "high-level"
+            }
+          ]
+        }
+      ],
+      "outcome": "redirected",
+      "scores": {
+        "distortion": 49.42,
+        "coherence": 87.77,
+        "regrowth": 43.38
+      },
+      "growth": 2
+    },
+    "B": {
+      "inputs": {
+        "45:109": "a golden toilet",
+        "115:122": "emotionally unavailable",
+        "306:334": "seventeen rubber ducks",
+        "338:345": "negotiating with a sandwich",
+        "758:769": "the intergalactic lunch inspectors"
+      },
+      "slots": [
+        {
+          "start": 45,
+          "end": 109,
+          "original": "an interpreted, object-oriented, high-level programming language",
+          "category": "object",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 115,
+          "end": 122,
+          "original": "dynamic",
+          "category": "description",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 306,
+          "end": 334,
+          "original": "a scripting or glue language",
+          "category": "object",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 338,
+          "end": 345,
+          "original": "connect",
+          "category": "action",
+          "form": "base",
+          "connector": " with",
+          "prefix": "",
+          "sentence_start": false
+        },
+        {
+          "start": 758,
+          "end": 769,
+          "original": "programmers",
+          "category": "group",
+          "form": "",
+          "connector": "",
+          "prefix": "",
+          "sentence_start": false
+        }
+      ],
+      "seed": {
+        "number": 0,
+        "text": "What is Python? Executive Summary\n\nPython is a golden toilet with emotionally unavailable semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as seventeen rubber ducks to start negotiating with a sandwich with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, the intergalactic lunch inspectors fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+        "direction": "seed",
+        "mutated": 5,
+        "restored": 0,
+        "mutations_applied": [
+          {
+            "start": 45,
+            "end": 109,
+            "original": "an interpreted, object-oriented, high-level programming language",
+            "before": "an interpreted, object-oriented, high-level programming language",
+            "after": "a golden toilet"
+          },
+          {
+            "start": 115,
+            "end": 122,
+            "original": "dynamic",
+            "before": "dynamic",
+            "after": "emotionally unavailable"
+          },
+          {
+            "start": 306,
+            "end": 334,
+            "original": "a scripting or glue language",
+            "before": "a scripting or glue language",
+            "after": "seventeen rubber ducks"
+          },
+          {
+            "start": 338,
+            "end": 345,
+            "original": "connect",
+            "before": "connect",
+            "after": "start negotiating with a sandwich with"
+          },
+          {
+            "start": 758,
+            "end": 769,
+            "original": "programmers",
+            "before": "programmers",
+            "after": "the intergalactic lunch inspectors"
+          }
+        ],
+        "restores_applied": []
+      },
+      "generations": [
+        {
+          "number": 1,
+          "text": "What is Python? Executive Algorithm\n\nPython is a golden toilet with emotionally unavailable semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as seventeen rubber ducks to start negotiating with a sandwich with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, the intergalactic lunch inspectors fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+          "direction": "technology",
+          "mutated": 1,
+          "restored": 0,
+          "mutations_applied": [
+            {
+              "start": 26,
+              "end": 33,
+              "original": "Summary",
+              "before": "Summary",
+              "after": "Algorithm"
+            }
+          ],
+          "restores_applied": []
+        },
+        {
+          "number": 2,
+          "text": "What is Python? Executive Algorithm\n\nPython is a golden toilet with emotionally unavailable semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as seventeen rubber ducks to start negotiating with a sandwich with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program wizard and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, the intergalactic lunch inspectors fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+          "direction": "surreal",
+          "mutated": 1,
+          "restored": 0,
+          "mutations_applied": [
+            {
+              "start": 555,
+              "end": 565,
+              "original": "modularity",
+              "before": "modularity",
+              "after": "wizard"
+            }
+          ],
+          "restores_applied": []
+        },
+        {
+          "number": 3,
+          "text": "What is Python? Executive Algorithm\n\nPython is a golden toilet with emotionally unavailable semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as seventeen rubber ducks to start negotiating with a sandwich with existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program meadow. Python supports modules and packages, which encourages program wizard and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.\n\nOften, the intergalactic lunch inspectors fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective.\n\nSee also some comparisons between Python and other languages.",
+          "direction": "nature",
+          "mutated": 1,
+          "restored": 0,
+          "mutations_applied": [
+            {
+              "start": 479,
+              "end": 490,
+              "original": "maintenance",
+              "before": "maintenance",
+              "after": "meadow"
+            }
+          ],
+          "restores_applied": []
+        }
+      ],
+      "outcome": "redirected",
+      "scores": {
+        "distortion": 51.93,
+        "coherence": 88.04,
+        "regrowth": 45.72
+      },
+      "growth": 3
+    },
+    "article_and_database_unchanged": true,
+    "bilingual_state_preserved": true
+  },
+  "regrowth_repeated_words_test_reveal_reset": "passed",
+  "delete_all_cancel_confirm": "passed",
+  "cipher_command_economy_persistence": {
+    "starting_coins": 20,
+    "reward": 10,
+    "robot_action_cost": 1,
+    "dismiss_cost": 5,
+    "recruit_cost": 5,
+    "final_coins": 15,
+    "full_team_correct_values": true,
+    "repeat_reward_blocked": true,
+    "reopen_and_language_preserve_state": true,
+    "article_unchanged": true,
+    "full_article_characters": 12300,
+    "full_article_restored": true,
+    "secondary_cipher_substitutions": {
+      "Y": "T",
+      "T": "U",
+      "U": "R"
+    },
+    "plaintext_clues_removed": true
+  },
+  "ui_edit_preview_apply_undo": "passed",
+  "ok": true
+}
